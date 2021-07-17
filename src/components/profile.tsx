@@ -17,7 +17,7 @@ function Profile() {
         <button className='btn' style={{width:'180px',height:'45px',fontSize:'1rem'}}>Upload photo</button>
         </div>
       </div>
-      <form style={{width:'inherit',overflow:'scroll'}} onSubmit={handleSubmit} >
+      <form style={{width:'inherit',overflowX:'hidden'}} onSubmit={handleSubmit} >
         <div className=' profile-fields-container'>
           
             <div className="form-control">
