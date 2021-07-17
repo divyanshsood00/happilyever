@@ -5,7 +5,7 @@ function Signout() {
     <div className='container'>
       <h1>Signed out</h1>
       <Link to='/'>
-        <button className="btn">
+        <button className="btn" style={{transform:'scale(.80)'}}>
           Login Again
         </button>
         
